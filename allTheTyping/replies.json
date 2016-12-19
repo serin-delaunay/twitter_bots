@@ -1,0 +1,284 @@
+{
+  "\\b(AWK|Awk|awk)\\b":
+    "#[lang:sed][#set_language#]opinion.capitalize#",
+
+  "\\b(ActionScript|Actionscript|actionscript|action script)\\b":
+    "#[lang:Haxe][#set_language#]opinion.capitalize#",
+
+  "\\b(ALGOL|Algol|algol)\\b":
+    "#[lang:INTERCAL]opinion.capitalize#",
+
+  "\\b(BASH|Bash|bash)\\b":
+    "#[lang:PowerShell][#set_language#]opinion.capitalize#",
+
+  "\\b(Befunge|befunge)\\b":
+    "#[lang:Orthogonal][#set_language#]opinion.capitalize#",
+
+  "\\b(Brainfuck|brainfuck|brainf\\*ck)\\b":
+    "#[lang:Whitespace][#set_language#]opinion.capitalize#",
+
+  "\\b(Bubblegum|bubblegum)\\b":
+    "#[lang:Malbolge][#set_language#]opinion.capitalize#",
+
+  "\\b(C|c)(?!([+\\u266F#-]|Sharp|sharp| Sharp| sharp))\\b":
+    "#[lang:FORTRAN][#set_language#]opinion.capitalize#",
+
+  "\\b(C\\+\\+|c\\+\\+|CPP|Cpp|cpp)(?![012])":
+    "#[lang:Java][#set_language#]opinion.capitalize#",
+
+  "\\b(C\\+\\+|c\\+\\+|CPP|Cpp|cpp)(0x|11|14|17|20|23)":
+    "#[lang:Rust][#set_language#]opinion.capitalize#",
+
+  "\\b(C|c)--":
+    "#[lang:ZX80 Assembler][#set_language#]opinion.capitalize#",
+
+  "\\b(CSS|Css|css)\\b":
+    "#[lang:LESS][#set_language#]opinion.capitalize#",
+
+  "\\b(CJAM|CJam|Cjam|cjam)\\b":
+    "#[lang:Pyth][#set_language#]opinion.capitalize#",
+
+  "\\b(COBOL|Cobol|cobol)\\b":
+    "#[lang:Smalltalk][#set_language#]opinion.capitalize#",
+
+  "\\b(Chef|chef)\\b":
+    "#[lang:Shakespeare][#set_language#]opinion.capitalize#",
+
+  "\\b(Clojure|clojure|clj)\\b":
+    "#[lang:Scala][#set_language#]opinion.capitalize#",
+
+  "\\b(CoffeeScript|Coffeescript|coffeescript|coffee)\\b":
+    "#[lang:Typescript][#set_language#]opinion.capitalize#",
+
+  "\\b(Coq|coq)\\b":
+    "#[lang:Prolog][#set_language#]opinion.capitalize#",
+
+  "\\b(C|c)(\\u266F|#|Sharp|sharp| Sharp| sharp)":
+    "#[lang:Go][#set_language#]opinion.capitalize#",
+
+  "\\b(D|d)\\b":
+    "#[lang:Lua][#set_language#]opinion.capitalize#",
+
+  "\\b(Dart|dart)\\b":
+    "#[lang:Purescript][#set_language#]opinion.capitalize#",
+
+  "\\b(Eiffel|eiffel)\\b":
+    "#[lang:COBOL][#set_language#]opinion.capitalize#",
+
+  "\\b(Elm|elm)\\b":
+    "#[lang:Purescript][#set_language#]opinion.capitalize#",
+
+  "\\b(EMACS|Emacs|emacs)\\b":
+    "#[lang:Vimscript][#set_language#]opinion.capitalize#",
+
+  "\\b(Erlang|erlang)\\b":
+    "#[lang:LISP][#set_language#]opinion.capitalize#",
+
+  "\\b(FORTRAN|Fortran|fortran)\\b":
+    "#[lang:ALGOL 68][#set_language#]opinion.capitalize#",
+
+  "\\b(Forth|forth)\\b":
+    "#[lang:Postscript][#set_language#]opinion.capitalize#",
+
+  "\\b(F|f)(\\u266F|#|Sharp|sharp| Sharp| sharp)":
+    "#[lang:Haskell][#set_language#]opinion.capitalize#",
+
+  "\\b(GAP|Gap|gap)\\b":
+    "#[lang:Maple][#set_language#]opinion.capitalize#",
+
+  "\\b(GP \\(Graph Programs\\)|Graph Programs|Graph programs|graph programs|GP|Gp|gp|graph|Graph)\\b":
+    "#[lang:Thue][#set_language#]opinion.capitalize#",
+
+  "\\b(Game Maker|Game maker|game maker|GML|Gml|gml)\\b":
+    "#[lang:PuzzleScript][#set_language#]opinion.capitalize#",
+
+  "\\b(Go|go)\\b":
+    "#[lang:C♯][#set_language#]opinion.capitalize#",
+
+  "\\b(GolfScript|Golfscript|golfscript)\\b":
+    "#[lang:Pyth][#set_language#]opinion.capitalize#",
+
+  "\\b(HTML5|html5|HTML|html)\\b":
+    "#[lang:Javascript][#set_language#]opinion.capitalize#",
+
+  "\\b(Haskell|haskell)\\b":
+    "#[lang:Hy][#set_language#]opinion.capitalize#",
+
+  "\\b(Haxe|haxe)\\b":
+    "#[lang:HTML5][#set_language#]opinion.capitalize#",
+
+  "\\b(Hexagony|hexagony|hexagon)\\b":
+    "#[lang:Befunge][#set_language#]opinion.capitalize#",
+
+  "\\b(Hy|hy)\\b":
+    "#[lang:OCaml][#set_language#]opinion.capitalize#",
+
+  "\\b(INTERCAL|InterCal|Intercal|intercal)\\b":
+    "#[lang:Brainfuck][#set_language#]opinion.capitalize#",
+
+  "\\b(JavaScript|Javascript|javascript|JS|js|ES6|ECMAScript*|ECMAscript*|ecmascript*)\\b":
+    "#[lang:Typescript][#set_language#]opinion.capitalize#",
+
+  "\\b(Java|java)\\b":
+    "#[lang:C++][#set_language#]opinion.capitalize#",
+
+  "\\b(Jelly|jelly)\\b":
+    "#[lang:GolfScript][#set_language#]opinion.capitalize#",
+
+  "\\b(JSON|Json|json)\\b":
+    "#[lang:YML][#set_language#]opinion.capitalize#",
+
+  "\\b(Julia|julia)\\b":
+    "#[lang:Python][#set_language#]opinion.capitalize#",
+
+  "\\b(Jython|jython)\\b":
+    "#[lang:Clojure][#set_language#]opinion.capitalize#",
+
+  "\\b(LESS|Less|less)\\b":
+    "#[lang:Sass][#set_language#]opinion.capitalize#",
+
+  "\\b(?!Emacs |emacs )(LISP|Lisp|lisp|CL|cl)\\b":
+    "#[lang:Unlambda][#set_language#]opinion.capitalize#",
+
+  "\\b(LaTeX|Latex|latex)\\b":
+    "#[lang:LilyPond][#set_language#]opinion.capitalize#",
+
+  "\\b(LilyPond|Lilypond|lilypond)\\b":
+    "#[lang:Tex][#set_language#]opinion.capitalize#",
+
+  "\\b(Lua|LUA|lua)\\b":
+    "#[lang:D][#set_language#]opinion.capitalize#",
+
+  "\\b(MATLAB|MatLab|Matlab|matlab|Octave|octave)\\b":
+    "#[lang:Maple][#set_language#]opinion.capitalize#",
+
+  "\\b(Malbolge|MALBOLGE|malbolge|Sherlock|sherlock|Holmes|holmes)\\b":
+    "#[lang:Bubblegum][#set_language#]opinion.capitalize#",
+
+  "\\b(Maple|maple)\\b":
+    "#[lang:Mathematica][#set_language#]opinion.capitalize#",
+
+  "\\b(Mathematica|mathematica)\\b":
+    "#[lang:Coq][#set_language#]opinion.capitalize#",
+
+  "\\b(Piet|piet)\\b":
+    "#[lang:Whitespace][#set_language#]opinion.capitalize#",
+
+  "\\b(OCaml|OCAML|OCaML|ocaML|ocaml|ML|ml|OML|oml)\\b":
+    "#[lang:Racket][#set_language#]opinion.capitalize#",
+
+  "\\b(Ook!|Ook|ook!|ook)":
+    "#[lang:Chef][#set_language#]opinion.capitalize#",
+
+  "\\b(Orthogonal|orthogonal)\\b":
+    "#[lang:Trefunge][#set_language#]opinion.capitalize#",
+
+  "\\b(PHP|Php|php)\\b":
+    "#[lang:Perl][#set_language#]opinion.capitalize#",
+
+  "\\b(Pascal|pascal|Delphi|delphi)\\b":
+    "#[lang:Ada][#set_language#]opinion.capitalize#",
+
+  "\\b(Perl|perl|Perl6|perl6)\\b":
+    "#[lang:Python][#set_language#]opinion.capitalize#",
+
+  "\\b(PostScript|Postscript|postscript|PS|Ps|ps)\\b":
+    "#[lang:Befunge][#set_language#]opinion.capitalize#",
+
+  "\\b(PowerShell|Powershell|powershell)\\b":
+    "#[lang:Bash][#set_language#]opinion.capitalize#",
+
+  "\\b(Prolog|prolog)\\b":
+    "#[lang:GAP][#set_language#]opinion.capitalize#",
+
+  "\\b(PureScript|Purescript|purescript)\\b":
+    "#[lang:Coffeescript][#set_language#]opinion.capitalize#",
+
+  "\\b(PuzzleScript|Puzzlescript|puzzlescript)\\b":
+    "#[lang:Game Maker Language][#set_language#]opinion.capitalize#",
+
+  "\\b(Pyth|pyth)\\b":
+    "#[lang:Jelly][#set_language#]opinion.capitalize#",
+
+  "\\b(Python|python)":
+    "#[lang:Perl][#set_language#]opinion.capitalize#",
+
+  "\\b(QBASIC|QBasic|qbasic)\\b":
+    "#[lang:ZX80 Assembler][#set_language#]opinion.capitalize#",
+
+  "\\b(R|r)\\b":
+    "#[lang:Julia][#set_language#]opinion.capitalize#",
+
+  "\\b(Racket|racket)\\b":
+    "#[lang:Clojure][#set_language#]opinion.capitalize#",
+
+  "\\b(Ruby|ruby)\\b":
+    "#[lang:Haskell][#set_language#]opinion.capitalize#",
+
+  "\\b(Rust|rust)\\b":
+    "#[lang:C++23][#set_language#]opinion.capitalize#",
+
+  "\\b(SASS|Sass|sass)\\b":
+    "#[lang:CSS][#set_language#]opinion.capitalize#",
+
+  "\\b(SNOBOL|Snobol|snobol)\\b":
+    "#[lang:ALGOL 68][#set_language#]opinion.capitalize#",
+
+  "\\b(Scala|SCALA|scala)\\b":
+    "#[lang:Jython][#set_language#]opinion.capitalize#",
+
+  "\\b(Scheme|scheme)\\b":
+    "#[lang:OCaml][#set_language#]opinion.capitalize#",
+
+  "\\b(Shakespeare|shakespeare|Poet|poet)\\b":
+    "#[lang:Chef][#set_language#]opinion.capitalize#",
+
+  "\\b(Smalltalk|SmallTalk|smalltalk)\\b":
+    "#[lang:Pascal][#set_language#]opinion.capitalize#",
+
+  "\\b(SuperCollider|Supercollider|supercollider)\\b":
+    "#[lang:Piet][#set_language#]opinion.capitalize#",
+
+  "\\b(Swift|swift)\\b":
+    "#[lang:Objective-C][#set_language#]opinion.capitalize#",
+
+  "\\b(TeX|TEX|tex)\\b":
+    "#[lang:LaTeX][#set_language#]opinion.capitalize#",
+
+  "\\b(Thue|thue)\\b":
+    "#[lang:Brainfuck][#set_language#]opinion.capitalize#",
+
+  "\\b(Trefunge|trefunge|Quadrefunge|quadrefunge)\\b":
+    "#[lang:Hexagony][#set_language#]opinion.capitalize#",
+
+  "\\b(TypeScript|Typescript|typescript)\\b":
+    "#[lang:JavaScript][#set_language#]opinion.capitalize#",
+
+  "\\b(Unlambda|unlambda)\\b":
+    "#[lang:Racket][#set_language#]opinion.capitalize#",
+
+  "\\b(Vimscript|VimScript|vimscript|Vim|vim|VIM)\\b":
+    "#[lang:Emacs Lisp][#set_language#]opinion.capitalize#",
+
+  "\\b(Visual Basic|Visual BASIC| Visual basic |visual basic)\\b":
+    "#[lang:QBASIC][#set_language#]opinion.capitalize#",
+
+  "\\b(Whitespace|whitespace)\\b":
+    "#[lang:Brainfuck][#set_language#]opinion.capitalize#",
+
+  "\\b(XML|Xml|xml)\\b":
+    "#[lang:JSON][#set_language#]opinion.capitalize#",
+
+  "\\b(YML|Yml|yml)\\b":
+    "#[lang:XML][#set_language#]opinion.capitalize#",
+
+  "\\b(ZX|Zx|zx)\\b":
+    "#[lang:Befunge][#set_language#]opinion.capitalize#",
+  
+  "favourite|favorite|Favourite|Favorite":
+    "#[#set_language_random#]language_opinion_all_good#.",
+  
+  ".":
+    "#origin#"
+}
+

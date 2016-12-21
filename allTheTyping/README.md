@@ -1,4 +1,4 @@
-# [@allTheTyping]
+# @allTheTyping
 Tracery-based Twitter bot hosted on http://cheapbotsdonequick.com
 
 * [Twitter](https://twitter.com/allTheTyping)

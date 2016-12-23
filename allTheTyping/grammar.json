@@ -30,6 +30,7 @@
     "#lang# #has_typing#",
     "#language_opinion#",
     "#typing_opinion_good#",
+    "#typing_opinion_good#",
     "#typing_opinion_bad#"
   ],
   "language_opinion_all_good":[
@@ -58,11 +59,22 @@
   ],
   "language_opinion":[
     "#language_opinion_all_good#",
+    "#language_opinion_all_good#",
+    "#language_opinion_all_good#",
+    "#language_opinion_all_good#",
+    "#language_opinion_good##disagreeing_conjunction##[#set_language_it#]typing_opinion_bad#",
     "#language_opinion_good##disagreeing_conjunction##[#set_language_it#]typing_opinion_bad#",
     "#language_opinion_bad##disagreeing_conjunction##[#set_language_it#]typing_opinion_good#",
+    "#language_opinion_bad##disagreeing_conjunction##[#set_language_it#]typing_opinion_good#",
     "#language_opinion_bad##agreeing_conjunction##[#set_language_it#]typing_opinion_bad#",
+	  
+    "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#",
+    "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#",
+    "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#",
     "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#",
     "#typing_opinion_good##disagreeing_conjunction##[#set_language_it#]language_opinion_bad#",
+    "#typing_opinion_good##disagreeing_conjunction##[#set_language_it#]language_opinion_bad#",
+    "#typing_opinion_bad##disagreeing_conjunction##[#set_language_it#]language_opinion_good#",
     "#typing_opinion_bad##disagreeing_conjunction##[#set_language_it#]language_opinion_good#",
     "#typing_opinion_bad##agreeing_conjunction##[#set_language_it#]language_opinion_bad#"
   ],

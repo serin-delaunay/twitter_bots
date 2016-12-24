@@ -275,6 +275,49 @@
   "\\b(ZX|Zx|zx)\\b":
     "#[lang:Befunge][#set_language#]opinion.capitalize#",
   
+    "\\b(ser2|Ser2|SER2|ser|Ser|SER)\\b":
+    "#[lang:C++23][#set_language#]opinion.capitalize#",
+  "\\b(Redstone|redstone|RedStone)\\b":
+    "#[lang:Java][#set_language#]opinion.capitalize#",
+  "\\b(SMETANA|Smetana|smetana)\\b":
+    "#[lang:Unefunge][#set_language#]opinion.capitalize#",
+  "\\b(Billiard|billiard)\\b":
+    "#[lang:RubE on Conveyor Belts][#set_language#]opinion.capitalize#",
+  "\\b(Fugue|fugue)\\b":
+    "#[lang:Hexagony][#set_language#]opinion.capitalize#",
+  "\\b(GOTO|Goto|goto)\\b":
+    "#[lang:SMETANA][#set_language#]opinion.capitalize#",
+  "\\b(Qwerty|QWERTY|qwerty|Polish|polish|RPN|Rpn|rpn)\\b":
+    "#[lang:Forth][#set_language#]opinion.capitalize#",
+  "\\b(Quantum|quantum|Dimensions|dimensions)\\b":
+    "#[lang:Thue][#set_language#]opinion.capitalize#",
+  "\\b(RubE|Rube|rube|RUBE|Conveyor|conveyor)\\b":
+    "#[lang:Billiard Ball Machine][#set_language#]opinion.capitalize#",
+  "\\b(TMMLPTEALPAITAFNFAL|tmmlptealpaitafnfal)\\b":
+    "#[lang:SMETANA][#set_language#]opinion.capitalize#",
+  "><>":
+    "#[lang:Orthogonal][#set_language#]opinion.capitalize#",
+  "\\b(Bitxtreme|BITXTREME|bitxtreme)\\b":
+    "#[lang:PHP][#set_language#]opinion.capitalize#",
+  "\\b(FALSE|False|false)\\b":
+    "#[lang:MISC][#set_language#]opinion.capitalize#",
+  "\\b(Inform|inform)\\b":
+    "#[lang:ZIL][#set_language#]opinion.capitalize#",
+  "\\b(l33t)\\b":
+    "#[lang:LOLCODE][#set_language#]opinion.capitalize#",
+  "\\b(LOLCODE|LolCode|Lolcode|lolcode)\\b":
+    "#[lang:Chef][#set_language#]opinion.capitalize#",
+  "\\b(Lazy|lazy|k|K)\\b":
+    "#[lang:Unlambda][#set_language#]opinion.capitalize#",
+  "\\b(MISC|Misc|misc)\\b":
+    "#[lang:Brainfuck][#set_language#]opinion.capitalize#",
+  "(funge|FUNGE|Funge)\\b":
+    "#[lang:Quantum Dimensions][#set_language#]opinion.capitalize#",
+  "\\b(var'aq)\\b":
+    "#[lang:Shakespeare][#set_language#]opinion.capitalize#",
+  "\\b(ZIL|Zil|zil)\\b":
+    "#[lang:Inform 7][#set_language#]opinion.capitalize#",
+  
   "favourite|favorite|Favourite|Favorite":
     "#[#set_language_random#]language_opinion_all_good#.",
   

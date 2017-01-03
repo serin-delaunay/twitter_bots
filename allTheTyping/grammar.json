@@ -45,7 +45,9 @@
     ". Also, ",
     ". Furthermore, ",
     ". On top of that, ",
-    ". What's more, "
+    ". What's more, ",
+    ". And another thing: ",
+    ". And if that didn't convince you, "
   ],
   "disagreeing_conjunction":[
     ", but ",
@@ -55,7 +57,9 @@
     ". But ",
     ", although ",
     ". However, ",
-    ". On the other hand, "
+    ". On the other hand, ",
+    ". But that's not important because ",
+    ". But who cares, "
   ],
   "language_opinion":[
     "#language_opinion_all_good#",

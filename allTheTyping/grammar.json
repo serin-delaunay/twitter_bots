@@ -27,15 +27,12 @@
   ],
   "opinion_base":[
     "#lang# #has_typing#",
-    "#language_opinion#",
-    "#language_opinion#",
+    "#compound_opinion#",
+    "#compound_opinion#",
     "#typing_opinion_good#",
     "#typing_opinion_good#",
     "#typing_opinion_bad#"
   ],
-  "language_opinion_all_good":[
-    "#language_opinion_good#, and #[langs:its][lang:it]typing_opinion_good#"
-    ],
   "agreeing_conjunction":[
     ", and ",
     ", and ",
@@ -61,40 +58,45 @@
     ". But that's not important because ",
     ". But who cares, "
   ],
-  "language_opinion":[
-    "#language_opinion_all_good#",
-    "#language_opinion_all_good#",
-    "#language_opinion_all_good#",
-    "#language_opinion_all_good#",
-    
-    "#language_opinion_good##disagreeing_conjunction##[#set_language_it#]typing_opinion_bad#",
-    "#language_opinion_good##disagreeing_conjunction##[#set_language_it#]typing_opinion_bad#",
-    
-    "#language_opinion_bad##disagreeing_conjunction##[#set_language_it#]typing_opinion_good#",
-    "#language_opinion_bad##disagreeing_conjunction##[#set_language_it#]typing_opinion_good#",
-    
+  "compound_opinion":[
+    "#compound_opinion_agreeing#",
+    "#compound_opinion_agreeing#",
+    "#compound_opinion_agreeing#",
+    "#compound_opinion_disagreeing#",
+    "#compound_opinion_disagreeing#",
+    "#compound_opinion_disagreeing#",
+    "#compound_opinion_3#"
+  ],
+  
+  "compound_opinion_agreeing":[
+    "#compound_opinion_good_good#",
+    "#compound_opinion_good_good#",
+    "#compound_opinion_good_good#",
+    "#compound_opinion_good_good#",
+    "#compound_opinion_bad_bad#"
+  ],
+  "compound_opinion_good_good":[
+    "#language_opinion_good##agreeing_conjunction##[langs:its][lang:it]typing_opinion_good#",
+    "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#"
+  ],
+  "compound_opinion_bad_bad":[
     "#language_opinion_bad##agreeing_conjunction##[#set_language_it#]typing_opinion_bad#",
-	  
-    "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#",
-    "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#",
-    "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#",
-    "#typing_opinion_good##agreeing_conjunction##[#set_language_it#]language_opinion_good#",
-    
-    "#typing_opinion_good##disagreeing_conjunction##[#set_language_it#]language_opinion_bad#",
-    "#typing_opinion_good##disagreeing_conjunction##[#set_language_it#]language_opinion_bad#",
-    
-    "#typing_opinion_bad##disagreeing_conjunction##[#set_language_it#]language_opinion_good#",
-    "#typing_opinion_bad##disagreeing_conjunction##[#set_language_it#]language_opinion_good#",
-    
-    "#typing_opinion_bad##agreeing_conjunction##[#set_language_it#]language_opinion_bad#",
-    
-    "#language_opinion_rare#"
+    "#typing_opinion_bad##agreeing_conjunction##[#set_language_it#]language_opinion_bad#"
   ],
-  "language_opinion_rare":[
-    "#language_opinion_good#. On the other hand, #[#set_language_it#]typing_opinion_bad#. On the gripping hand, #[#set_language_it#]language_opinion_good#",
-    "#language_opinion_good#. On the other hand, #[#set_language_it#]typing_opinion_bad#. On the gripping hand, #[#set_language_it#]language_opinion_good#",
-    "#language_opinion_bad#. On the other hand, #[#set_language_it#]typing_opinion_good#. On the gripping hand, #[#set_language_it#]language_opinion_bad#"
+  "compound_opinion_disagreeing":[
+    "#language_opinion_good##disagreeing_conjunction##[#set_language_it#]typing_opinion_bad#",
+    "#language_opinion_bad##disagreeing_conjunction##[#set_language_it#]typing_opinion_good#",
+    "#typing_opinion_good##disagreeing_conjunction##[#set_language_it#]language_opinion_bad#",
+    "#typing_opinion_bad##disagreeing_conjunction##[#set_language_it#]language_opinion_good#"
   ],
+  "compound_opinion_3":[
+    "#[opinion1:#typing_opinion_good#][opinion2:#language_opinion_bad#][opinion3:#language_opinion_good#]compound_opinion_structure#","#[opinion1:#typing_opinion_good#][opinion2:#language_opinion_bad#][opinion3:#language_opinion_good#]compound_opinion_structure#","#[opinion1:#typing_opinion_bad#][opinion2:#language_opinion_good#][opinion3:#language_opinion_bad#]compound_opinion_structure#",
+    
+    "#[opinion1:#language_opinion_good#][opinion2:#typing_opinion_bad#][opinion3:#language_opinion_good#]compound_opinion_structure#","#[opinion1:#language_opinion_good#][opinion2:#typing_opinion_bad#][opinion3:#language_opinion_good#]compound_opinion_structure#","#[opinion1:#language_opinion_bad#][opinion2:#typing_opinion_good#][opinion3:#language_opinion_bad#]compound_opinion_structure#",
+    
+    "#[opinion1:#language_opinion_good#][opinion2:#language_opinion_bad#][opinion3:#typing_opinion_good#]compound_opinion_structure#","#[opinion1:#language_opinion_good#][opinion2:#language_opinion_bad#][opinion3:#typing_opinion_good#]compound_opinion_structure#","#[opinion1:#language_opinion_bad#][opinion2:#language_opinion_good#][opinion3:#typing_opinion_bad#]compound_opinion_structure#"
+  ],
+  "compound_opinion_structure":"#opinion1#. On the other hand, #opinion2#. On the gripping hand, #opinion3#",
   "typing_opinion_good":[
     "#langs# #typing# was #language_opinion_adj_good.a# idea",
     "it was #language_opinion_adj_good.a# idea to make #lang# #typed#",

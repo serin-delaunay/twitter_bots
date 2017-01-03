@@ -319,7 +319,7 @@
     "#[lang:Inform 7][#set_language#]opinion.capitalize#",
   
   "favourite|favorite|Favourite|Favorite":
-    "#[#set_language_random#]language_opinion_all_good#.",
+    "#[#set_language_random#]compound_opinion_good_good#.",
   
   ".":
     "#origin#"

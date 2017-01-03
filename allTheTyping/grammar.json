@@ -9,23 +9,22 @@
     "#opinion_base#.",
     "#opinion_base#.",
     "#opinion_base#.",
-    "#opinion_base#.",
-    "#opinion_base#.",
-    "#opinion_base#.",
-    "#opinion_base#.",
-    "#opinion_base#.",
-    "#opinion_base#.",
-    "#opinion_base#.",
-    "#opinion_base#.",
-    "#opinion_base#.",
-    "actually, #opinion_base#.",
-    "actually, #opinion_base#.",
-    "actually, #opinion_base#.",
-    "I think you'll find that #opinion_base#.",
-    "everyone knows that #opinion_base#.",
-    "most people don't know that #opinion_base#.",
-    "you're wrong. #opinion_base.capitalize#."
+    "#emphasised_opinion#."
   ],
+  "emphasised_opinion":[
+    "actually, #opinion_base#",
+    "actually, #opinion_base#",
+    "actually, #opinion_base#",
+    "actually, #opinion_base#",
+    "I think you'll find that #opinion_base#",
+    "everyone knows that #opinion_base#",
+    "most people don't know that #opinion_base#",
+    "you're wrong. #opinion_base#",
+    "those who are in the know all agree that #opinion_base#",
+    "I've yet to find anyone who disagrees with me that #opinion_base#",
+    "if you care to look at the literature, you'll find #many# sources who say that #opinion_base#",
+    "any decent computer science textbook will tell you that #opinion_base#."
+  ]
   "opinion_base":[
     "#lang# #has_typing#",
     "#language_opinion#",

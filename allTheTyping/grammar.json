@@ -106,6 +106,7 @@
   ],
   "typing_opinion_bad":[
     "#langs# #typing# was #language_opinion_adj_bad.a# idea",
+    "#langs# #typing# was #[noun:idea]excuse_for_noun#",
     "it was #language_opinion_adj_bad.a# idea to make #lang# #typed#",
     "I #language_opinion_verb_bad# #langs# #typing#",
     "I #dont_use# #lang# because of its #typing#",
@@ -119,7 +120,23 @@
   "language_opinion_bad":[
     "#lang# is #language_opinion_adj_bad#",
     "#lang# is #language_opinion_adj_bad.a# language",
+    "#lang# is #[noun:language]excuse_for_noun#",
     "I #language_opinion_verb_bad# #lang#"
+  ],
+  "excuse_for_noun":[
+    "#excuse_adj.a# excuse for #noun.a#"
+  ],
+  "excuse_adj":[
+    "poor",
+    "sorry",
+    "pathetic",
+    "miserable",
+    "terrible",
+    "awful",
+    "dreadful",
+    "sad",
+    "unacceptable",
+    "rotten"
   ],
   "has_typing":[
     "is #typed#",

@@ -126,7 +126,7 @@
     "#[lang:GolfScript][#set_language#]opinion.capitalize#",
 
   "\\b(JSON|Json|json)\\b":
-    "#[lang:YML][#set_language#]opinion.capitalize#",
+    "#[lang:YAML][#set_language#]opinion.capitalize#",
 
   "\\b(Julia|julia)\\b":
     "#[lang:Python][#set_language#]opinion.capitalize#",
@@ -269,7 +269,7 @@
   "\\b(XML|Xml|xml)\\b":
     "#[lang:JSON][#set_language#]opinion.capitalize#",
 
-  "\\b(YML|Yml|yml)\\b":
+  "\\b(YAML|YaML|Yaml|yaml|YML|Yml|yml)\\b":
     "#[lang:XML][#set_language#]opinion.capitalize#",
 
   "\\b(ZX|Zx|zx)\\b":

@@ -9,6 +9,9 @@
     "#opinion_base#.",
     "#opinion_base#.",
     "#opinion_base#.",
+    "#opinion_base#.",
+    "#opinion_base#.",
+    "#opinion_base#.",
     "#emphasised_opinion#."
   ],
   "emphasised_opinion": [
@@ -16,9 +19,12 @@
     "actually, #opinion_base#",
     "actually, #opinion_base#",
     "actually, #opinion_base#",
+    "actually, #opinion_base#",
+    "actually, #opinion_base#",
     "I think you'll find that #opinion_base#",
     "everyone knows that #opinion_base#",
     "most people don't know that #opinion_base#",
+    "you're wrong. #opinion_base#",
     "you're wrong. #opinion_base#",
     "those who are in the know all agree that #opinion_base#",
     "I've yet to find anyone who disagrees with me that #opinion_base#",
@@ -38,7 +44,12 @@
     ", and ",
     ", and ",
     ", and ",
+    ", and ",
+    ", and ",
+    ", and ",
     ". And ",
+    ". And ",
+    ". Also, ",
     ". Also, ",
     ". Furthermore, ",
     ". On top of that, ",
@@ -51,6 +62,12 @@
     ", but ",
     ", but ",
     ", but ",
+    ", but ",
+    ", but ",
+    ", but ",
+    ". But ",
+    ". But ",
+    ". But ",
     ". But ",
     ", although ",
     ". However, ",
@@ -62,6 +79,8 @@
     "#compound_opinion_agreeing#",
     "#compound_opinion_agreeing#",
     "#compound_opinion_agreeing#",
+    "#compound_opinion_agreeing#",
+    "#compound_opinion_disagreeing#",
     "#compound_opinion_disagreeing#",
     "#compound_opinion_disagreeing#",
     "#compound_opinion_disagreeing#",
@@ -99,25 +118,34 @@
   "compound_opinion_structure": "#opinion1#. On the other hand, #opinion2#. On the gripping hand, #opinion3#",
   "typing_opinion_good": [
     "#langs# #typing# was #language_opinion_adj_good.a# idea",
+    "#langs# #typing# was #language_opinion_adj_good.a# idea",
     "it was #language_opinion_adj_good.a# idea to make #lang# #typed#",
     "I #language_opinion_verb_good# #langs# #typing#",
+    "I #language_opinion_verb_good# #langs# #typing#",
     "I #do_use# #lang# because of its #typing#",
+    "I #do_use# #lang# because it's #typed#",
     "I #do_use# #lang# because it's #typed#"
   ],
   "typing_opinion_bad": [
     "#langs# #typing# was #language_opinion_adj_bad.a# idea",
+    "#langs# #typing# was #language_opinion_adj_bad.a# idea",
     "#langs# #typing# was #[noun:idea]excuse_for_noun#",
     "it was #language_opinion_adj_bad.a# idea to make #lang# #typed#",
     "I #language_opinion_verb_bad# #langs# #typing#",
+    "I #language_opinion_verb_bad# #langs# #typing#",
     "I #dont_use# #lang# because of its #typing#",
+    "I #dont_use# #lang# because it's #typed#",
     "I #dont_use# #lang# because it's #typed#"
   ],
   "language_opinion_good": [
     "#lang# is #language_opinion_adj_good#",
+    "#lang# is #language_opinion_adj_good#",
     "#lang# is #language_opinion_adj_good.a# language",
+    "I #language_opinion_verb_good# #lang#",
     "I #language_opinion_verb_good# #lang#"
   ],
   "language_opinion_bad": [
+    "#lang# is #language_opinion_adj_bad#",
     "#lang# is #language_opinion_adj_bad#",
     "#lang# is #language_opinion_adj_bad.a# language",
     "#lang# is #[noun:language]excuse_for_noun#",
@@ -125,6 +153,8 @@
     "#i_dont_think# that #lang# #is_a_programming_language#"
   ],
   "i_dont_think": [
+    "I don't think",
+    "I don't think",
     "I don't think",
     "I don't believe",
     "it seems unlikely",
@@ -156,6 +186,7 @@
   "short_time": [
     "two seconds",
     "ten minutes",
+    "an hour",
     "an hour",
     "a day or two"
   ],
@@ -208,7 +239,14 @@
     "non-experts",
     "sober people"
   ],
-  "classical": ["", "real ", "physical ", "classical ", "non-quantum ", "deterministic "],
+  "classical": [
+    "",
+    "real ",
+    "physical ",
+    "classical ",
+    "non-quantum ",
+    "deterministic "
+  ],
   "excuse_for_noun": [
     "#excuse_adj.a# excuse for #noun.a#"
   ],
@@ -231,6 +269,9 @@
     "has #typing#"
   ],
   "typed": [
+    "#adverb# typed",
+    "#adverb# typed",
+    "#adverb# typed",
     "#adverb# typed",
     "#adverb# typed",
     "#adverb# typed",
@@ -272,7 +313,11 @@
     "#adjective# typing",
     "#adjective# typing",
     "#adjective# typing",
+    "#adjective# typing",
+    "#adjective# typing",
     "#job# typing",
+    "#quality# typing",
+    "#quality# typing",
     "#quality# typing",
     "#quality# typing",
     "#quality# typing",
@@ -404,6 +449,8 @@
   ],
   "dont_use": [
     "don't use",
+    "don't use",
+    "don't use",
     "will never use",
     "have never used",
     "won't even consider using",
@@ -414,6 +461,10 @@
   ],
   "language_opinion_verb_good": [
     "love",
+    "love",
+    "love",
+    "like",
+    "like",
     "like",
     "quite like",
     "appreciate",
@@ -422,8 +473,13 @@
   ],
   "language_opinion_verb_bad": [
     "hate",
+    "hate",
+    "hate",
+    "dislike",
     "dislike",
     "loathe",
+    "loathe",
+    "despise",
     "despise",
     "see no value in",
     "cannot bring myself to use",

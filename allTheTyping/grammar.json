@@ -121,7 +121,93 @@
     "#lang# is #language_opinion_adj_bad#",
     "#lang# is #language_opinion_adj_bad.a# language",
     "#lang# is #[noun:language]excuse_for_noun#",
-    "I #language_opinion_verb_bad# #lang#"
+    "I #language_opinion_verb_bad# #lang#",
+    "#i_dont_think# that #lang# #is_a_programming_language#"
+  ],
+  "i_dont_think": [
+    "I don't think",
+    "I don't believe",
+    "it seems unlikely",
+    "you have a lot to learn if you think",
+    "I'm not #convinced#",
+    "I'm not entirely #convinced#",
+    "I'm not at all #convinced#",
+    "I'm not even slightly #convinced#",
+    "I couldn't possibly be #convinced#",
+    "on a cold day in Hell I could be #convinced#"
+  ],
+  "convinced": ["convinced", "persuaded"],
+  "is_a_programming_language": [
+    "is a programming language",
+    "is actually a programming language",
+    "is really a programming language",
+    "is usable for #designed_for_modifier#",
+    "was designed #designed_modifier#",
+    "is usable by #usable_by_modifier#",
+    "wasn't designed by #designed_by_modifier_bad#"
+  ],
+  "designed_modifier": [
+    "for #designed_for_modifier#",
+    "for use by #usable_by_modifier#",
+    "by #designed_by_modifier_good#",
+    "professionally",
+    "in more than #short_time#"
+  ],
+  "short_time": [
+    "two seconds",
+    "ten minutes",
+    "an hour",
+    "a day or two"
+  ],
+  "designed_by_modifier_good": [
+    "a human",
+    "humans",
+    "an adult",
+    "adults"
+  ],
+  "designed_by_modifier_bad": [
+    "a dodo",
+    "an ostrich",
+    "an albatross",
+    "a cartoon squirrel",
+    "a tetrahedron of strawberry condensed milk",
+    "a snowperson",
+    "a jar of jam",
+    "a child",
+    "a filing cabinet",
+    "a broken snooker cue",
+    "a bureaucrat",
+    "a ball of orange cat hair",
+    "Robert Smith",
+    "a Norwegian black metal band",
+    "two bored sadists",
+    "a kitten walking on a keyboard",
+    "Gottlob Frege",
+    "Georg Cantor",
+    "the Nethack dev team",
+    "pure entropy",
+    "Kyuubey",
+    "Rambo",
+    "Agent Smith",
+    "a scrabble bag",
+    "the Ride to Hell: Retribution fan club",
+    "cis het white men"
+  ],
+  "maybe_x": ["#x#", ""],
+  "designed_for_modifier": [
+    "#[x:actually ]maybe_x#programming #classical#computers"
+  ],
+  "usable_by_modifier": [
+    "humans",
+    "adults",
+    "programmers",
+    "non-experts",
+    "sober people"
+  ],
+  "classical": ["", "real ", "physical ", "classical ", "non-quantum ", "deterministic "],
+  "designed_by_modifier": [],
+  "excuse_for_noun": [
+    "#excuse_adj.a# excuse for #noun.a#"
   ],
   "excuse_for_noun":[
     "#excuse_adj.a# excuse for #noun.a#"

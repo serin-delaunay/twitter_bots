@@ -251,7 +251,7 @@
     "#excuse_adj.a# excuse for #noun.a#"
   ],
   "excuse_adj": [
-    "poor",
+    "subpar",
     "sorry",
     "pathetic",
     "miserable",
@@ -540,7 +540,7 @@
     "original"
   ],
   "language_opinion_adj_bad": [
-    "poor",
+    "subpar",
     "bad",
     "awful",
     "terrible",

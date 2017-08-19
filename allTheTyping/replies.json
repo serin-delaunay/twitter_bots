@@ -317,6 +317,8 @@
     "#[lang:Shakespeare][#set_language#]opinion.capitalize#",
   "\\b(ZIL|Zil|zil)\\b":
     "#[lang:Inform 7][#set_language#]opinion.capitalize#",
+  "(Solidity|solidity)\\b":
+    "#[lang:PHP][#set_language#]opinion.capitalize#",
   
   "favourite|favorite|Favourite|Favorite":
     "#[#set_language_random#]compound_opinion_good_good#.",

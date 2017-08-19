@@ -126,7 +126,9 @@
     "I #language_opinion_verb_good# #langs# #typing#",
     "I #do_use# #lang# because of its #typing#",
     "I #do_use# #lang# because it's #typed#",
-    "I #do_use# #lang# because it's #typed#"
+    "I #do_use# #lang# because it's #typed#",
+    "more languages should be #typed# like #lang#",
+    "being #typed# is what made #lang# #language_opinion_adj_good#"
   ],
   "typing_opinion_bad": [
     "#langs# #typing# was #language_opinion_adj_bad.a# idea",
@@ -137,12 +139,15 @@
     "I #language_opinion_verb_bad# #langs# #typing#",
     "I #dont_use# #lang# because of its #typing#",
     "I #dont_use# #lang# because it's #typed#",
-    "I #dont_use# #lang# because it's #typed#"
+    "I #dont_use# #lang# because it's #typed#",
+    "#typing# killed #lang# for me",
+    "#lang# should have been #typed#, like #language#"
   ],
   "language_opinion_good": [
     "#lang# is #language_opinion_adj_good#",
     "#lang# is #language_opinion_adj_good#",
     "#lang# is #language_opinion_adj_good.a# language",
+    "#lang# is a #language_opinion_adj_good# name for a language",
     "I #language_opinion_verb_good# #lang#",
     "I #language_opinion_verb_good# #lang#"
   ],
@@ -152,6 +157,7 @@
     "#lang# is #language_opinion_adj_bad.a# language",
     "#lang# is #[noun:language]excuse_for_noun#",
     "I #language_opinion_verb_bad# #lang#",
+    "#lang# is a #language_opinion_adj_bad# name for a language",
     "#i_dont_think# that #lang# #is_a_programming_language#"
   ],
   "i_dont_think": [
@@ -367,7 +373,8 @@
     "maintain a wiki documenting the proper use of",
     "think in",
     "see the world in terms of",
-    "speak to other humans only in"
+    "speak to other humans only in",
+    "won a code golf competition with"
   ],
   "software": [
     "Linux",
@@ -480,7 +487,8 @@
     "quite like",
     "appreciate",
     "see the value of",
-    "once met the creator of"
+    "once met the creator of",
+    "was once retweeted by the creator of"
   ],
   "language_opinion_verb_bad": [
     "hate",

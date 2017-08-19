@@ -159,6 +159,7 @@
     "#lang# is #[noun:language]excuse_for_noun#",
     "I #language_opinion_verb_bad# #lang#",
     "#lang# is a #language_opinion_adj_bad# name for a language",
+    "#i_dont_think# that #lang# #is_a_programming_language#",
     "#i_dont_think# that #lang# #is_a_programming_language#"
   ],
   "i_dont_think": [
@@ -183,6 +184,7 @@
     "is usable for #designed_for_modifier#",
     "was designed #designed_modifier#",
     "is usable by #usable_by_modifier#",
+    "wasn't designed by #designed_by_modifier_bad#",
     "wasn't designed by #designed_by_modifier_bad#"
   ],
   "designed_modifier": [
@@ -531,6 +533,7 @@
     "love",
     "love",
     "love",
+    "like",
     "like",
     "like",
     "like",

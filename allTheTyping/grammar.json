@@ -143,6 +143,56 @@
 		"#typing# killed #lang# for me",
 		"#lang# should have been #typed#, like #language#"
 	],
+	"about": [
+		"about",
+		"describing",
+		"detailing"
+	],
+	"paradigm": [
+		"functional programming",
+		"imperative programming",
+		"OOP",
+		"declarative programming",
+		"procedural programming",
+		"visual programming",
+		"#meta#programming",
+		"logic programming",
+		"scripting",
+		"aspect-oriented programming",
+		"computation by graph transformation",
+		"parallel computing",
+		"GPGPU computing"
+	],
+	"make_better": [
+		"revolutionise",
+		"popularise",
+		"save",
+		"rescue"
+	],
+	"open_problem": [
+		"P=NP",
+		"envy-free cake-cutting",
+		"the unique games conjecture",
+		"the exponential time hypothesis",
+		"polynomial-time integer factorisation"
+	],
+	"will_maybe": [
+		"will",
+		"will probably",
+		"could",
+		"could possibly",
+		"might",
+		"might someday"
+	],
+	"extravagant_claim": [
+		"#paradigm #will_maybe# be #make_better.ed# by #lang#",
+		"#lang# #will_maybe# #make_better# #paradigm#",
+		"#lang# #will_maybe# #make_better# #paradigm#",
+		"#lang# #will_maybe# make #paradigm# the industry standard",
+		"#lang# #will_maybe# solve #open_problem#",
+		"#lang# #will_maybe# be the seed of a new renaissance in tech",
+		"#lang# #will_maybe# supercede all #typed# languages"
+	],
 	"language_opinion_good": [
 		"#lang# is #language_opinion_adj_good#",
 		"#lang# is #language_opinion_adj_good#",
@@ -150,7 +200,11 @@
 		"#lang# is a #language_opinion_adj_good# name for a language",
 		"#lang# is the best language to write #software_type# in",
 		"I #language_opinion_verb_good# #lang#",
-		"I #language_opinion_verb_good# #lang#"
+		"I #language_opinion_verb_good# #lang#",
+		"I #language_opinion_verb_good# #lang#",
+		"I #wrote_a_diatribe# #about# how #extravagant_claim#",
+		"#lang# is my favourite language",
+		"#langs# designer deserves a medal"
 	],
 	"language_opinion_bad": [
 		"#lang# is #language_opinion_adj_bad#",
@@ -590,15 +644,25 @@
 		"good",
 		"OK",
 		"worthwhile",
+		"satisfactory",
 		"interesting",
 		"fascinating",
 		"usable",
+		"neat",
+		"acceptable",
 		"widely-used",
 		"inoffensive",
+		"valuable",
+		"worthy",
 		"laudable",
 		"ambitious",
 		"serendipitous",
 		"revolutionary",
+		"wonderful",
+		"magnificent",
+		"spliendid",
+		"marvellous",
+		"spectacular",
 		"stupendous",
 		"original"
 	],

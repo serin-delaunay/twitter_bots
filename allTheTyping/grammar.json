@@ -427,6 +427,24 @@
 		"#meta#meta",
 		"meta"
 	],
+	"company": [
+		"Google",
+		"Apple",
+		"Microsoft",
+		"Oracle",
+		"Baidu",
+		"Activision",
+		"EA",
+		"Ubisoft",
+		"Square Enix",
+		"Sega",
+		"Twitter",
+		"Netflix",
+		"Spotify",
+		"Facebook",
+		"Pied Piper",
+		"AWS"
+	],
 	"do_use": [
 		"can tolerate using",
 		"love to write in",
@@ -437,7 +455,8 @@
 		"think in",
 		"see the world in terms of",
 		"speak to other humans only in",
-		"won a code golf competition with"
+		"won a code golf competition with",
+		"presented #company# with an overwhelming case for switching to"
 	],
 	"software_type": [
 		"operating systems",

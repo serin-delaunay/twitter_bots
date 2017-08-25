@@ -215,7 +215,8 @@
 		"I #language_opinion_verb_bad# #lang#",
 		"#lang# is a #language_opinion_adj_bad# name for a language",
 		"#i_dont_think# that #lang# #is_a_programming_language#",
-		"#i_dont_think# that #lang# #is_a_programming_language#"
+		"#i_dont_think# that #lang# #is_a_programming_language#",
+		"I #dont_use# #lang#"
 	],
 	"i_dont_think": [
 		"I don't think",
@@ -422,7 +423,6 @@
 		"Russell set typing",
 		"recursive typing"
 	],
-
 	"meta": [
 		"#meta#meta",
 		"meta"
@@ -615,7 +615,9 @@
 		"appreciate",
 		"see the value of",
 		"once met the creator of",
-		"was once retweeted by the creator of"
+		"was once retweeted by the creator of",
+		"#do_use#",
+		"#do_use#"
 	],
 	"language_opinion_verb_bad": [
 		"hate",

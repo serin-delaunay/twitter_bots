@@ -319,6 +319,8 @@
     "#[lang:Inform 7][#set_language#]opinion.capitalize#",
   "(Solidity|solidity)\\b":
     "#[lang:PHP][#set_language#]opinion.capitalize#",
+  "(Excel|excel|pread ?sheets?)\\b":
+    "#[lang:Piet][#set_language#]opinion.capitalize#",
   
   "favourite|favorite|Favourite|Favorite":
     "#[#set_language_random#]compound_opinion_good_good#.",
